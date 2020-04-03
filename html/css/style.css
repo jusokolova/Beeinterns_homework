@@ -1,0 +1,29 @@
+body {
+    color: #282828;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+h3, h2 {
+    font-size: 1.25em;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+table {
+    width: 100%;
+    margin: 3%;
+    color: #282828;
+}
+.description {
+    color: #767676;
+}
+img {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
