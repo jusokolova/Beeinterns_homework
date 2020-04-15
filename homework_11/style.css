@@ -11,8 +11,9 @@ label {
     color: #000000;
     font-weight: 700;
 }
-li.navigation-elements {
+a.navigation-elements {
     color: #737270;
+    text-decoration: none;
 }
 input, select {
     width: 310px;
@@ -25,10 +26,6 @@ input::placeholder, option {
    left: 14px;
    font-weight: 700;
    color: #9B9B9A;
-}
-ul {
-    list-style-type: none;
-    display: inline-flex;
 }
 hr {
     height: 1px;
@@ -121,16 +118,18 @@ div.buttonsAndIcons button.iconButton {
 }
 
 /*ВТОРАЯ СТРОКА HEADER*/
-ul.navigation {
+div.navigation {
+    display: flex;
+    align-items: center;
     height: 45px;
     width: 1363px;
     background-color: #F4F4F4;
 }
-ul.navigation {
+div.navigation{
     padding-left: 70px;
 }
-ul.navigation li.navigation-elements {
-    margin: auto 20px;
+div.navigation a.navigation-elements {
+    margin-right: 20px;
 }
 
 /*КОНТЕНТ*/
@@ -149,16 +148,18 @@ div.content h2 {
     margin: 35px auto;
 }
 /*Меню*/
-ul.menu {
-    list-style-type: none;
-    display: inline-flex;
+div.menu {
+    display: flex;
     width: 930px;
     height: 20px;
-    margin: 0 auto;
+    justify-content: center;
 }
-ul.menu li.navigation-elements {
+div.menu a.navigation-elements {
     margin: auto 30px;
     font-weight: 700;
+}
+div.menu a.navigation-elements:active {
+    color: #007AFF;
 }
 /*Форма*/
 div.applicationPage {
@@ -169,20 +170,20 @@ div.applicationPage {
     margin: 15px auto;
 }
 /*имя*/
-form.name {
+div.formName {
     margin: 40px 0;
     height: 65px;
     width: 930px;
     display: block;
 }
-form.name div.name {
+div.formName div.name {
     display: inline-flex;
 }
-form.name label {
+div.formName label {
     margin-top: 40px;
     margin-left: 20px;
 }
-form.name div.name input[placeholder="Mr."] {
+div.formName div.name input[placeholder="Mr."] {
     width: 151px;
     margin: 10px 30px auto 20px;
 }
@@ -208,22 +209,22 @@ div.addressForm {
     flex-wrap: wrap;
     width: 970px;
 }
-form.address {
+div.formAddress {
     margin: 15px 0 15px 20px;
     width: 290px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-form.address label {
+div.formAddress label {
     line-height: 17px;
     margin-bottom: 10px;
 }
-form.address input {
+div.formAddress input {
     margin: 0 20px auto 0;
     width: 270px;
 }
-form.address select {
+div.formAddress select {
     margin: 0 20px auto 0;
     width: 270px;
     height: 42px;
@@ -268,45 +269,50 @@ div.submission button.blue {
 /*FOOTER*/
 footer {
     width: 1443px;
+    height: 332px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 /*Меню*/
 div.footerMenu{
-    display: inline-flex;
+    display: flex;
     height: 217px;
-    width: 970px;
-    margin: 0 200px;
+    width: 960px;
     justify-content: space-between;
 }
-ul.footerMenu {
+div.footerMenuColumn {
     display: flex;
     flex-direction: column;
 }
-li.footerMenu {
+a.footerMenu {
     color: #1C1C1B;
     line-height: 30px;
     font-weight: 700;
+    text-decoration: none;
 }
-li.footerMenu img {
+a.footerMenu img {
     line-height: 30px;
     vertical-align: middle;
     margin-right: 7px;
 }
-li.footerMenu:first-child {
+a.footerMenu:first-child {
     font-size: 1.5rem;
     line-height: 40px;
 }
 footer hr {
     width: 1281px;
+    justify-content: center;
 }
 /*Terms/Conditions/Privacy*/
-ul.terms_conditions_privacy {
-    margin: 0 auto; 
+div.terms_conditions_privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 367px;
     height: 65px;
 }
-ul.terms_conditions_privacy li {
+div.terms_conditions_privacy a {
     line-height: 25px;
-    margin: auto 10px;
+    margin-right: 10px;
 }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopper</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> Roboto-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="firstLine">
+                <h1 id="logo">Sh<span class="blue">o</span>pper</h1>
+    
+                <div class="search">
+                    <input type="text" class="search" placeholder="Search for Products">
+                    <button class="blue short">Search</button>
+                </div>
+    
+                <div class="buttonsAndIcons">
+                    <div>
+                        <button class="white">Log In</button>
+                        <button class="white">Sign Up</button>
+                    </div>
+                    <div>
+                        <button class="iconButton" id="shortlist"><img src="./image/shortlist_icon.png" alt="Shortlist"></button>
+                        <button class="iconButton" id="cart"><img src="./image/Cart_icon.png" alt="Cart"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="secondLine">
+                <nav>
+                    <div class="navigation">
+                        <a class="navigation-elements" href="">Home Decor</a>
+                        <a class="navigation-elements" href="">Furniture</a>
+                        <a class="navigation-elements" href="">Lighting</a>
+                        <a class="navigation-elements" href="">Home Accents</a>
+                        <a class="navigation-elements" href="">Rugs</a>
+                        <a class="navigation-elements" href="">Outdoors</a>
+                        <a class="navigation-elements" href="">Holidays</a>
+                        <a class="navigation-elements" href="">Gifts</a>
+                        <a class="navigation-elements" href="">Events</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    
+        <main>
+            <div class="content">
+                <h2>Seller Application</h2>
+    
+                <div class="menu">
+                    <a class="navigation-elements" href="">Application Critaria</a>
+                    <a class="navigation-elements" href="">Company Profile</a>
+                    <a class="navigation-elements" href="">Web & Social Media</a>
+                    <a class="navigation-elements" href="">Contact Info</a>
+                    <a class="navigation-elements" href="">Confirm Account</a>
+                </div>
+
+                <div class="applicationPage">
+                    <form class="applicationPage">
+                        <div class="formName">
+                            <label>Name</label>
+                            <div class="name">
+                                <input class="applicationInput" type="text" placeholder="Mr.">
+                                <input class="applicationInput" type="text" placeholder="First Name">
+                                <input class="applicationInput" type="text" placeholder="Middle Name">
+                                <input class="applicationInput" type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                            <div class="formName">
+                                <label>Title</label>
+                                <div class="name">
+                                <input class="applicationInput" type="text" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser">
+                            </div>
+                        </div>
+                        <div class="address">
+                            <span class="blue">Business mailing address</span>
+                            <hr>
+                            <div class="addressForm">
+                                <div class="formAddress">
+                                    <label for="street_address">Street Address</label>
+                                    <input class="applicationInput" type="text">
+                                </div>
+                                <div class="formAddress">
+                                    <label for="apt_suite_other">Apt / Suite / Other</label>
+                                    <input class="applicationInput" type="text">
+                                </div>
+                                <div class="formAddress">
+                                    <label for="city">City</label>
+                                    <input class="applicationInput" type="text">
+                                </div>
+                                <div class="formAddress">
+                                    <label for="szip_postal_code">Zip / Postal Code</label>
+                                    <input class="applicationInput" type="number">
+                                </div>
+                                <div class="formAddress">
+                                    <label for="country">Country</label>
+                                    <select name="country">
+                                        <option disabled selected>Select Country</option>
+                                    </select>
+                                </div>
+                                <div class="formAddress">
+                                    <label for="phone_number">Phone Number</label>
+                                    <input class="applicationInput" type="tel">
+                                </div>
+                                <p>To Validate your account please enter valid mobile Number to receive confirmation code</p>
+                            </div>
+                    </form>
+                    </div>
+                    <div class="submission">
+                        <button class="white">Go Back</button>
+                        <p>By Submitting this application, you agree to the</p>
+                        <button class="blue">Submit Application</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="footerMenu">
+                <div class="footerMenuColumn">
+                    <a class="footerMenu" href="">How We Help</a>
+                    <a class="footerMenu" href="">Retailers</a>
+                    <a class="footerMenu" href="">Interiors Designers</a>
+                    <a class="footerMenu" href="">Product Designers</a>
+                    <a class="footerMenu" href="">Wholesalers / Importers</a>
+                    <a class="footerMenu" href="">Artisans</a>
+                </div>
+                <div class="footerMenuColumn">
+                    <a class="footerMenu" href="">Get To Know Us</a>
+                    <a class="footerMenu" href="">About</a>
+                    <a class="footerMenu" href="">Policies</a>
+                    <a class="footerMenu" href="">Careers</a>
+                    <a class="footerMenu" href="">Press</a>
+                </div>
+                <div class="footerMenuColumn">
+                    <a class="footerMenu" href="">Join the Community</a>
+                    <a class="footerMenu" href="">Upcoming Events</a>
+                    <a class="footerMenu" href="">Become a Buyer</a>
+                    <a class="footerMenu" href="">Become a Seller</a>
+                </div>
+                <div class="footerMenuColumn">
+                    <a class="footerMenu" href="">Follow Us</a>
+                    <a class="footerMenu" href=""><img src="./image/fb_icon.png" alt="Facebook Icon">Facebook</a>
+                    <a class="footerMenu" href=""><img src="./image/pntr_icon.png" alt="Facebook Icon">Pinterest</a>
+                    <a class="footerMenu" href=""><img src="./image/twt_icon.png" alt="Facebook Icon">Twitter</a>
+                    <a class="footerMenu" href=""><img src="./image/insta_icon.png" alt="Facebook Icon">Instagram</a>
+                </div>
+            </div>
+            <hr>
+            <div class="terms_conditions_privacy">
+                <a class="navigation-elements" href="">Terms & Conditions</a>
+                <a class="navigation-elements" href="">Privacy</a>
+                </div>
+        </footer>
+    </body>
+    
+</html>
