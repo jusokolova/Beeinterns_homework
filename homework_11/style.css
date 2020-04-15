@@ -1,0 +1,318 @@
+html {
+    font-size: 14px;
+    width: 1443px;
+    font-family: 'Lato', sans-serif;
+}
+/*Элементы*/
+span.blue {
+    color: #007AFF;
+}
+label {
+    color: #000000;
+    font-weight: 700;
+}
+a.navigation-elements {
+    color: #737270;
+    text-decoration: none;
+}
+input, select {
+    width: 310px;
+    height: 38px;
+    border: #E0E0E0 solid 1px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+input::placeholder, option {
+   left: 14px;
+   font-weight: 700;
+   color: #9B9B9A;
+}
+hr {
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #C6C6C5;
+    margin: 10px 20px 0 20px;
+}
+/*Кнопки*/
+button.blue {
+    height: 42px;
+    width: 150px;
+    color: #ffffff;
+    background-color: #007AFF;
+    border: #007AFF solid 1px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+button.blue.short {
+    width: 75px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+button.white {
+    width: 100px;
+    height: 40px;
+    border: #757575 solid 1px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #757575;
+    font-weight: 700;
+}
+button.iconButton {
+    background-color: transparent;
+    border: none;
+}
+
+
+/*ПЕРВАЯ СТРОКА HEADER*/
+header {
+    width: 1443px;
+}
+div.firstLine {
+    display: inline-flex;
+    width: 1443px;
+    height: 100px;
+}
+h1#logo {
+    margin: auto 80px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+/*Input и кнопка поиска*/
+div.search {
+    display: inline-flex;
+    width: 400px;
+    height: 40px;
+    margin: auto 0;
+}
+input.search {
+    margin: 0 40px;
+    width: 310px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+input.search::placeholder {
+    color: #757575;
+}
+div.search button.blue {
+    margin-left: -40px;
+}
+/*Кнопки регистрации/лог-ина/корзины и shortlistа*/
+div.secondLine {
+    display: inline-flex;
+    width: 1443px;
+    height: 45px;
+}
+div.buttonsAndIcons {
+    width: 400px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: auto 80px auto auto;
+}
+div button.white {
+    margin: auto 10px;
+}
+div.buttonsAndIcons button.iconButton {
+    margin: auto 10px;
+}
+
+/*ВТОРАЯ СТРОКА HEADER*/
+div.navigation {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 1363px;
+    background-color: #F4F4F4;
+}
+div.navigation{
+    padding-left: 70px;
+}
+div.navigation a.navigation-elements {
+    margin-right: 20px;
+}
+
+/*КОНТЕНТ*/
+main {
+    width: 1443px;
+}
+div.content {
+    width: 970px;
+    margin: 40px auto;
+}
+div.content h2 {
+    font-size: 1.85rem;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 35px auto;
+}
+/*Меню*/
+div.menu {
+    display: flex;
+    width: 930px;
+    height: 20px;
+    justify-content: center;
+}
+div.menu a.navigation-elements {
+    margin: auto 30px;
+    font-weight: 700;
+}
+div.menu a.navigation-elements:active {
+    color: #007AFF;
+}
+/*Форма*/
+div.applicationPage {
+    width: 970px;
+    height: 637px;
+    border: 1px solid #C6C6C5;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+/*имя*/
+div.formName {
+    margin: 40px 0;
+    height: 65px;
+    width: 930px;
+    display: block;
+}
+div.formName div.name {
+    display: inline-flex;
+}
+div.formName label {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div.formName div.name input[placeholder="Mr."] {
+    width: 151px;
+    margin: 10px 30px auto 20px;
+}
+input.applicationInput  {
+    width: 215px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/*Title*/
+input.applicationInput[placeholder^="eg."] {
+    margin: 10px 30px auto 20px;
+    width: 915px;
+}
+/*адрес*/
+div.address {
+    margin: 40px 0;
+    height: 256px;
+    width: 970px;
+    display: block;
+}
+div.addressForm {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 970px;
+}
+div.formAddress {
+    margin: 15px 0 15px 20px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.formAddress label {
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+div.formAddress input {
+    margin: 0 20px auto 0;
+    width: 270px;
+}
+div.formAddress select {
+    margin: 0 20px auto 0;
+    width: 270px;
+    height: 42px;
+}
+div.address div.addressForm p {
+    width: 290px;
+    color: #878786;
+    margin: 0 0 0 640px;
+}
+div.address span.blue {
+    margin: 50px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+div.address hr {
+    width: 931px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/*Подтверждение формы*/
+div.submission {
+    width: 970px;
+    height: 70px;
+    display: flex;
+}
+div.submission button.white {
+    margin: auto 30px;
+}
+div.submission p {
+    width: 488px;
+    margin: auto auto;
+    text-align: right;
+    color: #878786;
+}
+div.submission button.blue {
+    margin: auto 30px auto 200px;
+}
+
+/*FOOTER*/
+footer {
+    width: 1443px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Меню*/
+div.footerMenu{
+    display: flex;
+    height: 217px;
+    width: 960px;
+    justify-content: space-between;
+}
+div.footerMenuColumn {
+    display: flex;
+    flex-direction: column;
+}
+a.footerMenu {
+    color: #1C1C1B;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a.footerMenu img {
+    line-height: 30px;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+a.footerMenu:first-child {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+footer hr {
+    width: 1281px;
+    justify-content: center;
+}
+/*Terms/Conditions/Privacy*/
+div.terms_conditions_privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 367px;
+    height: 65px;
+}
+div.terms_conditions_privacy a {
+    line-height: 25px;
+    margin-right: 10px;
+}
