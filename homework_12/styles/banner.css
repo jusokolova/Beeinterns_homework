@@ -1,0 +1,38 @@
+div.banner {
+    height: 616px;
+    width: 100%;
+    background-color: #2B2835;
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img {
+    width: 856px;
+    height: 766px;
+    z-index: 2;
+    align-self: start;
+}
+.banner .title {
+    font-size: 1.3rem;
+    line-height: 20px;
+    margin-bottom: 13px;
+}
+.banner .slogan {
+    width: 580px;
+}
+.banner .price {
+    margin: 40px 34px 10px 0;
+}
+.banner .button {
+    margin-top: 44px;
+}
+.banner .price_line .buy {
+    background-color: #FFC700;
+
+}
+.banner .extra {
+    color: #FFC700;
+}
