@@ -59,13 +59,11 @@ input[type="checkbox"] {
     display: none;
 }
 img {
-    width: 510px;
-    height: 713px;
-    margin-top: 30px;
-    justify-self: end;
-    align-self: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
 }
-body div.tab {
+div.tab {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,9 +87,7 @@ div.content p {
     margin: 10px 0 0 0;
 }
 input:checked + .content {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+    display: inline-block;
     box-sizing: border-box;
     width: 100%;
     padding: 20px 40px 20px 20px;
@@ -107,5 +103,5 @@ label::before + input[type="checkbox"]:checked {
     left: 20px;
     border: rgba(0, 0, 0, 0.65) solid;
     border-width: 0 1px 1px 0;
-    transform: rotateZ(45deg);
+    transform: rotate(45deg);
 }
