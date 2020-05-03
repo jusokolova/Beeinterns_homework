@@ -1,0 +1,107 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+p {
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    color: #5D5D5D;
+}
+h1 {
+    width: 100vw;
+    text-align: start;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #5D5D5D;
+    font-size: 1.15rem;
+}
+a {
+    color: #007AFF;
+}
+label {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 35px;
+    background-color: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    position: relative;
+}
+label[for="button2"], label[for="button3"] {
+    border-top: none;
+}
+label:hover {
+    background-color: rgb(230, 230, 230);
+}
+label::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 40%;
+    left: 20px;
+    border: rgba(0, 0, 0, 0.65) solid;
+    border-width: 0 1px 1px 0;
+    transform: rotateZ(-45deg);
+}
+input[type="checkbox"] {
+    display: none;
+}
+img {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+div.tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+body div.tab::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: -10px;
+    border-left: 2px #0179FF solid;
+}
+div.content {
+    display: none;
+}
+div.content p {
+    margin: 10px 0 0 0;
+}
+input:checked + .content {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    border: 1px solid #E8E8E8;
+    position: relative;
+}
+label::before + input[type="checkbox"]:checked {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 40%;
+    left: 20px;
+    border: rgba(0, 0, 0, 0.65) solid;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+}
