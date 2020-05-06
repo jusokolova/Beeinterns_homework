@@ -67,10 +67,10 @@
             <div class="sign_up">
                 <div>Sign up for our email newsletter and get the latest our company news.
                     <br>Get free trial for 3 month.</div>
-                    <form class="sign_up" action="/posturl/newsletter/">
+                    <form class="sign_up" method="POST" action="/posturl/newsletter/">
                         <input id="name" type="text" placeholder="Name" minlength="2" maxlength="30" pattern="[A-Za-z]{2,30}" required>
                         <input id="email" type="email" placeholder="E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                        <input id="button" type="button" value="GET STARTED FOR FREE">
+                        <input id="button" type="submit" value="GET STARTED FOR FREE">
                     </form>
             </div>
         </main>
