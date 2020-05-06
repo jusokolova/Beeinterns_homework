@@ -1,0 +1,168 @@
+@media all and (max-width: 320px) {
+    div#background-image {
+        height: 480px;
+        background-image: url(../images/imgonline-com-ua-AutoEnrich-wfNWlP6gR9nvUW.png);
+    }
+    div.menu img:last-of-type {
+        display: none;
+    }
+    div.menu {
+        width: 45%;
+    }
+    div.menu a:not(:first-of-type) {
+        display: none;
+    }
+    a.menu_items {
+        font-size: 5vw;
+        line-height: 23px;
+        width: 56px;
+        text-align: center;
+    }
+    img {
+        width: 20px;
+        height: 20px;
+    }
+    form.search {
+        width: 55%;
+    }
+    input[type="search"] {
+        font-size: 4vw;
+        line-height: 20px;
+        color: #fff;
+    }
+    input[type="search"]::placeholder {
+        font-size: 4vw;
+        line-height: 20px;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    form.search::before {
+        content: "";
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 10px;
+        height: 10px;
+        background-image: url(../images/search_icon.png);
+        background-size: contain;
+    }
+    div.description {
+        justify-content: space-between;
+        padding: 20px 0 36px 20px;
+        box-sizing: border-box;
+        height: 420px;
+        width: 65%;
+    }
+    h1 {
+        font-size: 8vw;
+        line-height: 30px;
+    }
+    img[alt="star"] {
+        width: 15px;
+        height: 15px;
+    }
+    div.controls {
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        font-size: 5vw;
+    }
+    div.parameters {
+        height: 175px;
+        flex-direction: column;
+    }
+    span.parameter_data > div {
+        display: flex;
+        width: 85%;
+        height: 103px;
+        justify-content: space-between;
+    }
+    span.parameter_header {
+        font-size: 5vw;
+    }
+    span.parameter_data {
+        font-size: 5.5vw;
+    }
+    span#video {
+        position: relative;
+        margin-left: 30px;
+    }
+    span#video::before {
+        position: absolute;
+        top: 3px;
+        left: -30px;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url(../images/watch.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    span#bookmark {
+        position: relative;
+        margin-left: 30px;
+    }
+    span#bookmark::before {
+        position: absolute;
+        top: 3px;
+        left: -30px;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url(../images/bookmark.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    div.sign_up {
+        height: 314px;
+        background-color: #1F1F2F;
+    }
+    div.sign_up > div {
+        width: 80%;
+        font-size: 5vw;
+        line-height: 26px;
+    }
+    form.sign_up {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 145px;
+    }
+    form.sign_up input {
+        position: relative;
+        width: 80%;
+        height: 35px;
+        background-color: #fff;
+        border-radius: 10px;
+        border-style: none;
+    }
+    form.sign_up input:not(:last-child) {
+        width: 70%;
+    }
+    form.sign_up input::placeholder {
+        font-size: 5vw;
+    }
+    input#button {
+        font-size: 5vw;
+    }
+    footer {
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    footer > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    footer div:nth-child(2) {
+        font-size: 5vw;
+    }
+    footer a {
+        text-decoration: underline;
+        font-size: 5vw;
+        line-height: 26px;
+    }
+}
