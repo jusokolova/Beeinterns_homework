@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Honda Landing Page</title>
+        <link rel="stylesheet" media="all" type="text/css" href="./styles/style.css">
+        <link rel="stylesheet" media="all" type="text/css" href="./styles/style_mobile.css">
+        <link rel="stylesheet" media="all" type="text/css" href="./styles/style_tablet.css">
+        <link rel="stylesheet" media="all" type="text/css" href="./styles/style_desktop.css">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="background-image">
+            <header>
+                <nav>
+                    <div class="menu">
+                        <img src="./images/BurgerMenu.png" alt="Menu">
+                        <img src="./images/domo-kun-logo.png" alt="Menu">
+                        <a class="menu_items">Models</a>
+                        <a class="menu_items">Dimentions</a>
+                        <a class="menu_items">Facts & Figures</a>
+                        <a class="menu_items">History</a>
+                        <a class="menu_items">Reviews</a>
+                    </div>
+                    <form class="search">
+                        <input type="search" placeholder="Search for details…">
+                    </form>
+                </nav>
+            </header>
+            <main>
+                <div class="description">
+                    <h1>Honda 
+                        <br>Sport 
+                        <br>CRF 450RX</h1>
+                    <div class="controls">
+                        <span id="video">Watch film</span>
+                        <span id="bookmark">Bookmark for later</span>
+                    </div>
+                    <div class="parameters">
+                        <div class="parameter">
+                            <span class="parameter_header">Manufacturer</span>
+                            <span class="parameter_data">Honda</span>
+                        </div>
+                        <div class="parameter">
+                            <span class="parameter_header">Production</span>
+                            <span class="parameter_data">2019</span>
+                        </div>
+                        <div class="parameter">
+                            <span class="parameter_header">Engine</span>
+                            <span class="parameter_data">0.45 L PGM-FI</span>
+                        </div>
+                        <div class="parameter">
+                            <span class="parameter_header">Reviews</span>
+                            <span class="parameter_data">
+                                <div>
+                                <img src="./images/star_filled.png" alt="star">
+                                <img src="./images/star_filled.png" alt="star">
+                                <img src="./images/star_filled.png" alt="star">
+                                <img src="./images/star_filled.png" alt="star">
+                                <img src="./images/star_unfilled.png" alt="star">
+                                4.0/5</div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sign_up">
+                <div>Sign up for our email newsletter and get the latest our company news.
+                    <br>Get free trial for 3 month.</div>
+                    <form class="sign_up" method="POST" action="/posturl/newsletter/">
+                        <input id="name" type="text" placeholder="Name" minlength="2" maxlength="30" pattern="[A-Za-z]{2,30}" required>
+                        <input id="email" type="email" placeholder="E-Mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        <input id="button" type="submit" value="GET STARTED FOR FREE">
+                    </form>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <a class="footer_menu_items">Cars</a>
+                <a class="footer_menu_items">Motorcycles</a>
+                <a class="footer_menu_items">Engines</a>
+                <a class="footer_menu_items">Water moto technology</a>
+            </div>
+            <div>
+                &COPY; 2020, &lt;BeeInterns/&gt;
+            </div>
+        </footer>
+    </body>
+</html>
